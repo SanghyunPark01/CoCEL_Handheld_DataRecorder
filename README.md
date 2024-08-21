@@ -19,7 +19,7 @@ CoCEL Handheld data recording program with **Touch UI**
 
 **Function**
 - Select Sensor: You can select the sensor you want to record.  
-- Auto Naming Mode: When `On`, automatically generates a name when data is saved.(You don't need to write your name on the keyboard!)  
+- Auto Naming Mode: When `On`, automatically generates a name when data is saved.(You don't need to write your name using keyboard!)  
 - Start & End Record button: Click the `Start Record` button to start recording the data(rosbag) and click the `End button` to stop recording and save it.  
 - Visualize: Visualize LiDAR & Camera.  
 
