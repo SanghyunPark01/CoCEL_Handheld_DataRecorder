@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=CoCEL Handheld
+Icon=/mnt/HDD1/보관함/icon/POSTECH.png
+Type=Application
+Exec=/home/psh/CoCEL_Handheld.sh

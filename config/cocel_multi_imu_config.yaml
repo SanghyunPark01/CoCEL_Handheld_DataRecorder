@@ -1,0 +1,13 @@
+sensor:
+  imu_topic: "/vectornav/IMU" # "/vectornav/IMU" "/livox/imu"
+  imu_topic2: "/livox/imu"
+  lidar_topic: "/livox/lidar"
+  # if img topic is compressed, you have to check "img_is_compressed" bellow.
+  cam_topic: "/camera/image_color/compressed" # "/camera/image_color" "/camera/image_color/compressed"
+  
+setting:
+  imu_hz: 200
+  imu2_hz: 200
+  lidar_hz: 10
+  cam_hz: 30
+  img_is_compressed: true

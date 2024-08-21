@@ -1,0 +1,9 @@
+sensor:
+  imu_topic: "/livox/imu"
+  lidar_topic: "/livox/lidar"
+  cam_topic: "/cam"
+  
+setting:
+  imu_hz: 200
+  lidar_hz: 10
+  cam_hz: 50

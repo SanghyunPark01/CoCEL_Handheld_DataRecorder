@@ -1,0 +1,14 @@
+<launch>
+    <!-- IMU -->
+    <!-- <include file="$(find vectornav)/launch/vectornav.launch" /> -->
+    <!-- LiDAR -->
+    <!-- <include file="$(find livox_ros_driver)/launch/livox_lidar_trigger.launch" /> -->
+    <!-- Camera -->
+    <!-- <include file="$(find spinnaker_camera_driver)/launch/camera_trigger.launch" /> -->
+
+    <rosparam command="load" file="$(find CoCEL_Handheld_DataRecorder)/config/cocel_multi_imu_config.yaml" />
+    <node pkg="CoCEL_Handheld_DataRecorder" type="ui_node.py" name="ui_node" output="screen"/>
+    <!-- <node pkg="CoCEL_Handheld_DataRecorder" type="reindexing_node" name="reindexing_node" output="screen"/> -->
+    <node pkg="CoCEL_Handheld_DataRecorder" type="handler_node" name="handler_node" output="screen"/>
+
+</launch>

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=CoCEL Handheld MID360
+Icon=/home/psh/workspace/ros_workspace/handheld_ws/src/CoCEL_Handheld_DataRecorder/icon/POSTECH.png
+Type=Application
+Exec=/home/psh/workspace/ros_workspace/handheld_ws/src/CoCEL_Handheld_DataRecorder/CoCEL_Handheld_MID360.sh
