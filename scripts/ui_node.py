@@ -7,6 +7,8 @@ import webbrowser
 from queue import Queue
 import copy
 import numpy as np
+import cv2
+import subprocess
 
 import rospy
 from std_msgs.msg import *
@@ -24,7 +26,6 @@ import pyqtgraph as pg
 import pyqtgraph.opengl as gl
 from pyqtgraph.Qt import QtGui
 
-import cv2
 
 path__ = os.path.dirname(os.path.realpath(__file__))
 
@@ -45,7 +46,9 @@ class UI(QMainWindow,q_UI_form):
         super().__init__()
         self.setupUi(self)
         cocel_logo = cv2.imread(logo_path, cv2.IMREAD_UNCHANGED)
-        cocel_logo = cv2.resize(cocel_logo, dsize = (0,0), fx = 0.5, fy = 0.5)
+        # cocel_logo = cv2.resize(cocel_logo, dsize = (0,0), fx = 0.5, fy = 0.5)
+        cocel_logo = cv2.resize(cocel_logo, dsize = (0,0), fx = 0.75, fy = 0.75)
+
         pix_map = ui_utility.covert_cv2qt_rgba(cocel_logo)
         self.label_cocel_logo.setPixmap(pix_map)
         self.pushButton_lab_link.clicked.connect(lambda: webbrowser.open('https://cocel.postech.ac.kr/'))
@@ -83,6 +86,8 @@ class UI(QMainWindow,q_UI_form):
 
         self._m_visualize = False
         self.radioButton_visualize_on.toggled.connect(self._toggle_visualize_button)
+
+        self.pushButton_slam_0.clicked.connect(self._run_fastlio2)
 
         # @@@@@@@@@@@@@@@@@@@@@
         # @@@@@@ For ROS @@@@@@
@@ -254,6 +259,10 @@ class UI(QMainWindow,q_UI_form):
             self._m_visualize = True
         else:
             self._m_visualize = False
+
+    def _run_fastlio2(self):
+        fast_lio__ = path__ + "fast_lio.sh"
+        subprocess.call('sh ' + fast_lio__, shell = True)
 
 if __name__ == '__main__':
     try:

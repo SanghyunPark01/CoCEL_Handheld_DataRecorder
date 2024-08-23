@@ -39,7 +39,7 @@
    <widget class="QPushButton" name="pushButton_close">
     <property name="geometry">
      <rect>
-      <x>1490</x>
+      <x>1485</x>
       <y>15</y>
       <width>91</width>
       <height>91</height>
@@ -547,7 +547,7 @@ color: rgb(255, 255, 255);</string>
      <rect>
       <x>705</x>
       <y>90</y>
-      <width>771</width>
+      <width>871</width>
       <height>481</height>
      </rect>
     </property>
@@ -564,8 +564,8 @@ color: rgb(255, 255, 255);</string>
       <rect>
        <x>375</x>
        <y>75</y>
-       <width>381</width>
-       <height>331</height>
+       <width>481</width>
+       <height>391</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -580,7 +580,7 @@ color: rgb(255, 255, 255);</string>
       <rect>
        <x>375</x>
        <y>30</y>
-       <width>411</width>
+       <width>481</width>
        <height>46</height>
       </rect>
      </property>
@@ -624,7 +624,7 @@ color: rgb(255, 255, 255);</string>
      <property name="geometry">
       <rect>
        <x>150</x>
-       <y>410</y>
+       <y>420</y>
        <width>106</width>
        <height>61</height>
       </rect>
@@ -654,7 +654,7 @@ color: rgb(255, 255, 255);</string>
      <property name="geometry">
       <rect>
        <x>255</x>
-       <y>410</y>
+       <y>420</y>
        <width>106</width>
        <height>61</height>
       </rect>
@@ -681,7 +681,7 @@ color: rgb(255, 255, 255);</string>
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>410</y>
+       <y>420</y>
        <width>151</width>
        <height>61</height>
       </rect>
@@ -737,100 +737,11 @@ color: rgb(255, 255, 255);</string>
       <height>106</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(186, 189, 182);</string>
     </property>
     <property name="text">
      <string>Our LAB Link</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_slam_0">
-    <property name="geometry">
-     <rect>
-      <x>1490</x>
-      <y>120</y>
-      <width>91</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>13</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string>FAST-LIO2</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_slam_1">
-    <property name="geometry">
-     <rect>
-      <x>1490</x>
-      <y>240</y>
-      <width>91</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>13</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string>FAST-LIVO</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_slam_2">
-    <property name="geometry">
-     <rect>
-      <x>1490</x>
-      <y>360</y>
-      <width>91</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>13</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string>R2LIVE</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_slam_3">
-    <property name="geometry">
-     <rect>
-      <x>1490</x>
-      <y>480</y>
-      <width>91</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>13</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string>R3LIVE</string>
     </property>
    </widget>
   </widget>
