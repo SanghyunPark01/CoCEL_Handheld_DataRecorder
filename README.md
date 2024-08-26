@@ -5,7 +5,7 @@ CoCEL Handheld data recording program with **Touch UI**
 
 [System Firmware](https://github.com/SanghyunPark01/CoCEL_Handheld_Software)  
   
-[Video]()
+[Video](https://www.youtube.com/watch?v=Me2jOfhErLY)
   
 ======================================  
 

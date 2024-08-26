@@ -54,7 +54,9 @@ class UI(QMainWindow,q_UI_form):
         self.pushButton_lab_link.clicked.connect(lambda: webbrowser.open('https://cocel.postech.ac.kr/'))
         self.pushButton_record_stop.setEnabled(False)
         self.radioButton_visualize_off.setChecked(True)
-        self.lineEdit_save_dir_bag.setText("/home/psh/test")
+        home_path = os.path.expanduser('~')
+        self.lineEdit_save_dir_bag.setText(home_path+"/test")
+        self.lineEdit_save_dir_log.setText(home_path+"/log")
         self.radioButton_auto_naming_on.setChecked(True)
         self._m_naming_idx = 0
         self._m_path_name_std = self.lineEdit_save_dir_bag.text()
