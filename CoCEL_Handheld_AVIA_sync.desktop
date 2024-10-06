@@ -2,4 +2,4 @@
 Name=CoCEL Handheld AVIA
 Icon=/home/psh/workspace/ros_workspace/handheld_ws/src/CoCEL_Handheld_DataRecorder/icon/POSTECH.png
 Type=Application
-Exec=/home/psh/workspace/ros_workspace/handheld_ws/src/CoCEL_Handheld_DataRecorder/CoCEL_Handheld.sh
+Exec=/home/psh/workspace/ros_workspace/handheld_ws/src/CoCEL_Handheld_DataRecorder/CoCEL_Handheld_AVIA_sync.sh
