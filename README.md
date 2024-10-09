@@ -13,7 +13,7 @@ CoCEL Handheld data recording program with **Touch UI**
 
 ## One Touch UI
 **Example**
-<p align="center"><img src="./img/ui_example.png" width="max"></p>
+<p align="center"><img src="./img/ui_example_new.png" width="max"></p>
 
 **Function**
 - Select Sensor: You can select the sensor you want to record.  
