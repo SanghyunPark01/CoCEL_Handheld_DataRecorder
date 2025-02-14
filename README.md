@@ -2,12 +2,13 @@
 CoCEL Handheld data recording program with **Touch UI**  
 
 [Handheld Driver](https://github.com/SanghyunPark01/CoCEL_Handheld_Driver)  
+└ It's currently private..
   
 [Video](https://www.youtube.com/watch?v=Me2jOfhErLY)
   
 ======================================  
 
-**Hardware Design in [Handheld Driver](https://github.com/SanghyunPark01/CoCEL_Handheld_Driver)**  
+**Hardware Design in [Handheld Driver](https://github.com/SanghyunPark01/CoCEL_Handheld_Driver) or [Video](https://www.youtube.com/watch?v=Me2jOfhErLY)**  
   
 ======================================  
 
